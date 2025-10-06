@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffeaf4;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  color: #d63384;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.mensagem {
+  font-size: 1.3em;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #d63384;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #c2185b;
+}
